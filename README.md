@@ -1,7 +1,5 @@
 # Personal Protection Equipment Detection based on Deep Learning
 
-Real time Personal Protection Equipment(PPE) detection running on NVIDIA Jetson TX2 and Ubuntu 16.04
-
   - Person, HardHat and Vest detection
   - Input from Video file or USB Camera
   - A backend service which can push message to "console" or "Cisco® Webex Teams space" when an abnormal event is detected.
@@ -36,6 +34,9 @@ run the following command
 $ cd backend
 $ pip3 install -r requirements.txt
 $ python3 main.py
+$python3 video_demo.py --model_dir=D:\ppe-detection\ppe-detection\inference\model\  --video_file_name=with.mp4 --show_video_window=
+detection_video --camera_id=camera001
+
 ```
 
 run application as docker
@@ -76,5 +77,5 @@ coming soon!
 # Reference work
 * TensorFlow Object Detection: https://github.com/tensorflow/models/tree/master/research/object_detection
 
-#Annotations 
+# Annotations 
 * Labellmg imaging tool

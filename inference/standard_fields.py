@@ -16,7 +16,7 @@
 """Contains classes specifying naming conventions used for object detection.
 
 
-Specifies:
+Specifies
   InputDataFields: standard fields used by reader/preprocessor/batcher.
   DetectionResultFields: standard fields returned by object detector.
   BoxListFields: standard field used by BoxList

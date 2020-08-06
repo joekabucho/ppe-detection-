@@ -96,7 +96,7 @@ def create_detections_v1():
         msg = _construct_msg(js["timestamp"], js["cameraId"], len(js["persons"]), without_hardhat - without_both, without_vest - without_both, without_both)
         notification_svc.send(msg)
     else:
-        print("[Info]", "no one violate the rule")
+        print("[Info]", "no one violate the rule the person is not properly equipped")
 
     return jsonify(request.json), 201
 
