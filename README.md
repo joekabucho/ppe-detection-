@@ -19,6 +19,8 @@
 $ cd inference
 $ pip3 install -r requirements.txt
 $ python3 video_demo.py --model_dir=xxx  --video_file_name=xxx --show_video_window=xxx --camera_id=xxx
+$ python3 video_demo.py --model_dir=D:\OHS\ppe-detection-\inference\model\  --video_file_name=without.mp4 --show_video_window=1 --camera_id=test
+
 ```
 * model_dir: the path to model directory
 * video_file_name: input video file name or usb camera device name, you can get camera device name on ubuntu or NVIDIA Jeston by running
@@ -34,9 +36,6 @@ run the following command
 $ cd backend
 $ pip3 install -r requirements.txt
 $ python3 main.py
-$python3 video_demo.py --model_dir=D:\ppe-detection\ppe-detection\inference\model\  --video_file_name=with.mp4 --show_video_window=
-detection_video --camera_id=camera001
-
 ```
 
 run application as docker
